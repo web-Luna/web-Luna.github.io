@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    border: 1px solid black;
+}
+header{
+    height: 125px;
+    background-color: black;
+    color: white;
+}
+#logo{
+    display: inline-block;
+    width: 15%;
+    padding-left: 2%;
+}
+#logo>h2{
+    line-height: 120px;
+}
+#header-Title{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+}
+#header-Title>h1{
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    /* border: 1px solid black; */
+}
+#header-L{
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    margin-right: -25px;
+    font-size: 90px;
+    line-height: 89px;
+    /* border: 1px solid black; */
+}

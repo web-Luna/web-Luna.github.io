@@ -1,6 +1,6 @@
 # todo list
 
 - [x] header  
-- [ ] navigation bar  
+- [x] navigation bar  
 - [ ] slider  
 - [ ] footer  

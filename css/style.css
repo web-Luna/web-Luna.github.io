@@ -6,7 +6,7 @@ body{
     width: 100vw;
 }
 header{
-    height: 125px;
+    min-height: 125px;
     background-color: black;
     color: white;
 }
@@ -15,6 +15,13 @@ header{
     color: black;
 }
 @media (max-width: 575.98px) {
+    /* nav{
+        top: -25px;
+    } */
+    header{
+        box-sizing:content-box;
+        min-height: 100px !important;
+    }
     #header-Title{
         display: none;
     }
@@ -25,17 +32,27 @@ header{
         display: none;
     }
     #logo{
+        display: inline-block;
         width: 100vw;
-        height: 100px;
+        /* height: 100px; */
         padding-top: 25px;
-        text-align: center
-    }
+        text-align: center;
+        position: absolute;
+        /* top: 25px; */
+
+    } 
+     nav{
+        border-bottom-color: transparent !important;
+        padding-top: 27px !important;
+        width: 30vw;
+    } 
 }
 @media (min-width: 576px) {
     nav{
         display: flex;
         justify-content: center;
         width: 100vw;
+        background-color: white;
         /* border: 1px solid black; */
         padding: 0px 0px !important;
     } 
@@ -51,11 +68,6 @@ header{
     .nav-link:hover{
         color: rgba(128, 128, 128, 0.692) !important;
     }
-    #logo{
-        display: inline-block;
-        width: 15%;
-        padding-left: 2%;
-    }
     #logo>h2{
         line-height: 120px;
     }
@@ -67,10 +79,17 @@ header{
         border-radius: 50%;
         background-color: rgba(0, 0, 0, 0.404);
     }
+    #logo{
+        position: absolute;
+        left: 9vw;
+        top: -15px;
+        text-align: center;
+    }
     #header-Title{
+        margin-top: 20px;
         display: inline-flex;
         flex-wrap: wrap;
-        width: 70%;
+        width: 100%;
         justify-content: center;
     }
     #header-Title>h1{

@@ -1,6 +1,5 @@
 # todo list
 
-- [x] header  
-- [x] navigation bar  
+- [ ] navbar needs improving  
 - [ ] slider  
 - [ ] footer  

@@ -8,7 +8,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Web Luna - Sites e portfólios!</title>
 </head>
 <body>
@@ -40,6 +41,40 @@
             </div>
         </nav>
 	</header>
+    <div id="container">
+        <div id="slider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#slider" data-slide-to="0"></li>
+                <li data-target="#slider" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="img-container">
+                        <img class="slider-image wider-img" id="carousel-img1" src="https://source.unsplash.com/680x200" alt="">
+                        <img class="slider-image" id="carousel-img2" src="https://source.unsplash.com/340x200" alt="">
+                        <img class="slider-image higher-img" id="carousel-img3" src="https://source.unsplash.com/340x450" alt="">
+                        <img class="slider-image" id="carousel-img4" src="https://source.unsplash.com/340x200" alt="">
+                        <img class="slider-image wider-img" id="carousel-img5" src="https://source.unsplash.com/680x200" alt="">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="img-container">
+                        <img class="slider-image higher-img" id="carousel-img7" src="https://source.unsplash.com/340x450" alt="">
+                        <img class="slider-image" id="carousel-img8" src="https://source.unsplash.com/340x200" alt="">
+                        <img class="slider-image wider-img" id="carousel-img9" src="https://source.unsplash.com/680x200" alt="">
+                        <img class="slider-image wider-img" id="carousel-img10" src="https://source.unsplash.com/680x200" alt="">
+                        <img class="slider-image" id="carousel-img11" src="https://source.unsplash.com/340x200" alt="">
+                    </div>
+                </div>
+            </div>
+            <a href="#slider" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#slider" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

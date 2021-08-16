@@ -9,6 +9,17 @@ body{
     top:65vh;
 }
 @media (max-width: 575.98px) {
+    #content-container{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 75px;
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;     
+        overflow: hidden;
+    }
     .carousel{
         height: 400px;
     }
@@ -36,6 +47,17 @@ body{
 
 }
 @media (min-width: 576px) and (max-width: 1199.98px) {
+    #content-container{
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 75px;
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;     
+        overflow: hidden;
+    }
     .carousel{
         height: 400px;
     }

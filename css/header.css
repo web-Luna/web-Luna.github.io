@@ -4,7 +4,6 @@ header{
     color: white;
 }
 .nav-link{
-    background-color: #EEEE;
     text-transform: uppercase;
 }
 @media (max-width: 575.98px) {
@@ -29,7 +28,62 @@ header{
         /* width: 40vw; */
     } 
 }
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 991.98px){
+    .navbar-toggler{
+        left: 25px;
+    }
+    #logo>h2{
+        line-height: 120px;
+    }
+    #moon{
+        position: absolute;
+        top: 10px;
+        left: 100%;
+        padding: 40px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.404);
+    }
+    #logo{
+        position: absolute;
+        left: 9vw;
+        top: -15px;
+        text-align: center;
+    }
+    #header-Title{
+        margin-top: 10px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        justify-content: center;
+        position: absolute;
+    }
+    #header-Title>h1{
+        display: inline-block;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+    }
+    #header-L{
+        font-family: 'Times New Roman', Times, serif;
+        display: block;
+        margin-right: -25px;
+        font-size: 90px;
+        line-height: 89px;
+    }
+    header{
+        box-sizing:content-box;
+        min-height: 100px !important;
+    }
+    #logo{
+        display: none;
+
+    } 
+     nav{
+        border-bottom-color: transparent !important;
+        padding-top: 27px !important;
+        /* width: 40vw; */
+    } 
+}
+@media (min-width: 992px) {
     nav{
         display: flex;
         justify-content: center;
@@ -41,6 +95,7 @@ header{
         color: black !important;
         width:20vw;
         border-bottom: 1px solid rgba(128, 128, 128, 0.103) !important;
+        background-color: #EEEE;
         font-size: 20px;
         text-align: center;
         text-transform: uppercase;
@@ -63,7 +118,7 @@ header{
     #logo{
         position: absolute;
         left: 9vw;
-        top: -15px;
+        top: 25px;
         text-align: center;
     }
     #header-Title{

@@ -1,0 +1,94 @@
+@media (max-width: 575.98px) {
+    #container{
+        width: 90vw;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 75px;
+    }
+    h1,h2{
+        border-bottom: 1px solid rgba(128, 128, 128, 0.103);
+    }   
+    .person{
+        border-bottom: 1px solid rgba(128, 128, 128, 0.103);
+        margin-bottom: 10px;
+    }
+    .person>img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px){
+    #container{
+        width: 90vw;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        display: grid;
+        grid: 30vh 30vh 30vh 30vh / 100%;
+    }
+    .person{
+        display: grid;
+        grid: 100% / 175px 125px 1fr;
+        margin-top: 10px;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.103);
+        overflow-y:scroll;
+        overflow-x: hidden;
+    }
+    .person>img{
+        margin: 0; 
+        border-radius: 50%;
+    }
+    h1{
+        border-bottom: 1px solid rgba(128, 128, 128, 0.103);
+    }
+}
+@media (min-width: 992px){
+    #container{
+        width: 80vw;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        display: grid;
+        grid: 70vh / 25% 25% 25% 25%;
+    
+        /* border: 1px solid red; */
+    }
+    .person>img{
+        margin: 0 auto;
+        display: block;
+        border-radius: 50%;
+    }
+    .person>h2,.person>p{
+        margin: 0 15px;
+    }
+    .person>h2{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+    }
+    .person{
+        border-width: 1px;
+        border-style: solid;
+        border-image: 
+        linear-gradient(
+        to bottom, 
+        rgba(128, 128, 128, 0.103), 
+        #EEEE
+        ) 1 100%;
+        text-align: justify;
+    }
+    h2,h1{
+        border-bottom: 1px solid rgba(128, 128, 128, 0.103);
+    }
+}
+#container2{
+    width: 80vw;
+    margin: 25px auto;
+    font-size: 1.25em;
+    text-align: justify;
+    /* margin-bottom: 75px; */
+}
+    
+    

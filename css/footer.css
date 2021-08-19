@@ -4,7 +4,10 @@
 }
 body{
     width: 100vw;
+    background-color: #EEEE;
 }
 footer{
     width: 100vw;
+    border-top: 1px solid rgba(128, 128, 128, 0.103) !important;
+    background-color: #EEEE;
 }

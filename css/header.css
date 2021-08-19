@@ -4,6 +4,7 @@ header{
     color: white;
 }
 .nav-link{
+    background-color: #EEEE;
     text-transform: uppercase;
 }
 @media (max-width: 575.98px) {
@@ -39,7 +40,7 @@ header{
     .nav-link{
         color: black !important;
         width:20vw;
-        border-bottom: 1px solid rgba(128, 128, 128, 0.103);
+        border-bottom: 1px solid rgba(128, 128, 128, 0.103) !important;
         font-size: 20px;
         text-align: center;
         text-transform: uppercase;
